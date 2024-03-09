@@ -1,0 +1,16 @@
+.conainerNavCategories {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.conainerNavCategories p {
+  margin: 0;
+  border: solid 1px blue;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+.conainerNavCategories p:hover {
+  background-color: #b5c0d0;
+}

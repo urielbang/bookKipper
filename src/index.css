@@ -1,0 +1,103 @@
+.containerBooks {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  /* overflow-x: scroll; */
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+}
+.bookCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 1rem;
+}
+.bookCard img {
+  width: 20vw;
+  height: 30vh;
+}
+.formSearch {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+nav {
+  display: flex;
+}
+nav a {
+  text-decoration: none;
+}
+:root {
+  --font-base: "Lato";
+  --fs-700: 2.986rem;
+  --fs-600: 2.488rem;
+  --fs-500: 2.074rem;
+  --fs-400: 1.728rem;
+  --fs-300: 1.44rem;
+  --fs-200: 1.2rem;
+  --fs-100: 1rem;
+  --fs-50: 0.833rem;
+
+  --white: #ffffff;
+  --grey-50: #f8fafc;
+  --grey-100: #f1f5f9;
+  --grey-200: #e2e8f0;
+  --grey-300: #cbd5e1;
+  --grey-400: #94a3b8;
+  --grey-500: #64748b;
+  --grey-600: #475569;
+  --grey-700: #334155;
+  --grey-800: #1e293b;
+  --grey-900: #0f172a;
+  --grey-950: #020617;
+
+  --primary: #006ed8;
+  --primary-50: hsl(209, 100%, 52%);
+
+  --valid: #00d86c;
+  --invalid: #d8002f;
+
+  --text: var(--grey-500);
+  --text-alt: var(--grey-900);
+  --background: var(--grey-200);
+  --background-alt: var(--grey-100);
+  --background-shade: var(--grey-100);
+}
+.deletBook {
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  color: #d8002f;
+  border: solid 1px #d8002f;
+  cursor: pointer;
+}
+.deletBook:hover {
+  background-color: #d8002f;
+  color: wheat;
+}
+.searchBooks {
+  width: 40%;
+  margin: 1rem;
+}
+.containerSerachBooks {
+  display: flex;
+  justify-content: center;
+}
+
+.containerSeachUSer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.containerSeachUSer input {
+  width: 30vw;
+  margin: 2rem;
+}
